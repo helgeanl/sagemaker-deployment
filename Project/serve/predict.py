@@ -89,4 +89,4 @@ def predict_fn(input_data, model):
 
     result = model(data)
 
-    return result.cpu().detach().numpy().round()
+    return result.cpu().detach().numpy()
